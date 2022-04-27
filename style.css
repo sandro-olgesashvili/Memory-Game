@@ -1,0 +1,27 @@
+
+body {
+    display: grid;
+    place-items: center;
+    gap: 50px;
+}
+
+
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    max-width: 400px;
+}
+
+
+.btn button {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: all 0.2s;
+}
+
+.btn button:active {
+    transform: scale(0.95);
+}
